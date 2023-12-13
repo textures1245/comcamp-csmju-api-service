@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.js
+*.js.map
+*.tsbuildinfo
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# Vercel
+.vercel/
+
+# IDE/Text Editor specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+pids/
+logs/
+results/
+
+# OS generated files
+.DS_Store
+Thumbs.db
