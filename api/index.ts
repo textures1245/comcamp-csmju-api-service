@@ -9,11 +9,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(
-  cors({
-    origin: [process.env.DEV_LOCAL_PORT ?? "", "https://comcamp.csmju.com"],
-  })
-); // Enable CORS for all routes
+app.use(cors()); // Enable CORS for all routes
 // enable JSON body parser
 app.use(bodyParser.json());
 
